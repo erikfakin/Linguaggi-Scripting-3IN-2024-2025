@@ -1,17 +1,54 @@
 <!DOCTYPE html>
+<!-- 
+Con DOCTYPE definisco il tipo di documento come un HTML
+Questo e' neccessario per usate HTML5.
+DOCTYPE deve stare nella prima riga del documento.
+ -->
+
+<!-- 
+Il tag html e' la radice (root) del documento.
+Con l'attributo lang si definisce la lingua del documento.
+ -->
 <html lang="it">
+	<!--
+	Nel head vengono inserite le meta informazioni, cioe' le informazioni
+	che non vengono visualizzate sul documento ma serovno a dare
+	ulteriori informazioni come il titolo, la descrizione, il favicon...
+	-->
 	<head>
 		<title>Titolo della pagina</title>
 	</head>
 	
+	<!--
+	Nel body inserisco il contenuto della pagina.
+	-->
 	<body>
+		<!--
+		Il tag a rappresenta un collegamento che puo' essere un collegamento interno o esterno.
+		Nell'attributo href scrivo l'url del collegamento se e' un collegamento esterno,
+		oppure #immagini se voglio collegare una sezione della pagina con l'id uguale a "immagini".
+		-->
 		<a href="#immagini">Link sulla sezione immagini</a>
+		<!--
+		I tag h1 - h6 (heading) rappresentano titoli.
+		-->
 		<h1>Titolo principale</h1>
+		<!--
+		Il tag p rappresenta un paragrafo.
+		Il tag b (bold) stilizza il testo in grossetto.
+		-->
 		<p>Questo e' un <b>paragrafo.</b></p>
 		
 		<h2>Sottotitolo</h2>
+		<!--
+		Il tag <i> stilizza il testo in italico.
+		-->
 		<p>Paragrafo del <i>sottotitolo.</i></p>
 		
+		<!--
+		L'attributo target del tag <a> definisce dove vogliamo aprire il collegamento.
+		Con target="_blank" diciamo al browser di aprire il collegamento in un nuovo tab.
+		-->
 		<a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Articolo su wikipedia</a>
 		<p>
 		What is Lorem Ipsum?
@@ -40,6 +77,13 @@
 		
 		<h2 id="immagini">Sezione immagini</h2>
 		
+		<!--
+		Il tag <img> rappresenta un'immagine.
+		L'attributo src (source) e' l'url dell'immagine.
+		Gli attributi width e height definiscono le dimensioni.
+		L'attributo alt descrive l'immagine.
+		
+		-->
 		<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Tim_Berners-Lee_April_2009.jpg" 
 		height="500" alt="Tim Berners Lee" >
 		
@@ -48,6 +92,37 @@
 		
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HTML_element_content_categories.svg/330px-HTML_element_content_categories.svg.png"
 		width="800" alt="Struttura html">
+		
+		<table>
+			<thead>
+				<tr>
+					<th>
+						Marca
+					</th>
+					<th>
+						Modello
+					</th>
+					<th>
+						Anno
+					</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>
+						Kawasaki
+					</td>
+					<td>
+						Ninja
+					</td>
+					<td>
+						2014
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
 		
 		
 	</body>
