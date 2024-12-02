@@ -9,17 +9,17 @@
 			-->
 			p {
 				color: #ffff00;
-				width: 50%;
-				margin: auto;
-				
 			}
 			
 			h2 {
 				color: #ff0;
-				width: 50%;
-				margin: auto;
 				margin-top: 100px;	
 				margin-bottom: 32px;				
+			}
+			
+			.sezione{
+				width: 50%;
+				margin: auto;
 			}
 			
 			a {
@@ -29,7 +29,8 @@
 			a:visited{
 				color: #ff0;
 			}
-			
+			// Lo status hover e' attivo
+			// quando passo sopra con il mouse
 			a:hover{
 				color: #f00;
 			}
@@ -45,7 +46,16 @@
 			.verde{
 				color: #0f3;
 			}
+			.verde:visited{
+				color: #0f3;
+			}
+			.verde:hover{
+				color: #d3d;
+			}
 			
+			.sezione img{
+				float: left;
+			}
 			
 		</style>
 	</head>
@@ -57,37 +67,44 @@
 		<main >
 			<h1 style="color: #ffffaa;">Scopri l'universo di Batman!</h1>
 			<img src="immagini/cover.avif" width="100%">
-			<h2><a href="https://batman.fandom.com/wiki/Gotham_City" target="_blank">Gotham City</a></h2>
-			<p>
-				Gotham City è la città natale di Batman e della Bat-Family. 
-				Sebbene sia apparsa per la prima volta in Detective Comics #27, 
-				fu identificata per la prima volta da Bill Finger in Batman #4 
-				(inverno 1940). Spesso rappresentata come situata sulla costa 
-				orientale degli Stati Uniti, Gotham ha subito diverse modifiche 
-				nella sua rappresentazione, inclusi la geografia e l'architettura 
-				della città. A partire dall'Era del Bronzo dei fumetti, la politica 
-				di Gotham è stata spesso rappresentata come fortemente legata 
-				al crimine organizzato e alla corruzione. Gotham stessa è diventata 
-				una location importante nell'Universo DC, con molti personaggi 
-				come Superman, Swamp Thing, Green Lanterns e la JLA che visitano 
-				la città in varie occasioni.
-			</p>
+			<div class="sezione">
+				<h2><a href="https://batman.fandom.com/wiki/Gotham_City" target="_blank">Gotham City</a></h2>
+				<p>
+					Gotham City è la città natale di Batman e della Bat-Family. 
+					Sebbene sia apparsa per la prima volta in Detective Comics #27, 
+					fu identificata per la prima volta da Bill Finger in Batman #4 
+					(inverno 1940). Spesso rappresentata come situata sulla costa 
+					orientale degli Stati Uniti, Gotham ha subito diverse modifiche 
+					nella sua rappresentazione, inclusi la geografia e l'architettura 
+					della città. A partire dall'Era del Bronzo dei fumetti, la politica 
+					di Gotham è stata spesso rappresentata come fortemente legata 
+					al crimine organizzato e alla corruzione. Gotham stessa è diventata 
+					una location importante nell'Universo DC, con molti personaggi 
+					come Superman, Swamp Thing, Green Lanterns e la JLA che visitano 
+					la città in varie occasioni.
+				</p>
+			</div>
 			
-			<h2><a id="link-joker" class="verde" href="https://batman.fandom.com/wiki/Joker" target="_blank">Joker</a></h2>
-			<p id="testo-joker"class="verde">
-				Il Joker è un supercriminale e l'arcinemico di Batman. Introdotto 
-				per la prima volta in Batman #1 (primavera 1940), inizialmente 
-				era un genio del crimine con un senso dell'umorismo diabolico. 
-				Nato per essere un personaggio da apparizione unica, la sua popolarità 
-				immediata garantì che continuasse a comparire, diventando un nemico 
-				ricorrente per il Cavaliere Oscuro e Robin, il Ragazzo Meraviglia. 
-				Alla fine degli anni '40, il Joker fu reinventato come un innocuo 
-				burlone. Caduto nell'oblio negli anni '60, fu reintrodotto negli 
-				anni '70 come una minaccia più legittima e uno dei criminali più 
-				infami di Gotham City. Negli ultimi anni, il personaggio ha assunto 
-				la personalità di un'entità malvagia, trovando piacere nel tormentare 
-				Batman o cercando di spingerlo verso la malvagità.
-			</p>
+			<div class="sezione">
+				<h2><a id="link-joker" class="verde" href="https://batman.fandom.com/wiki/Joker" target="_blank">Joker</a></h2>
+				<img src="immagini/Thumb_Joker.webp" alt="Joker">
+				<p id="testo-joker"class="verde">
+					Il Joker è un supercriminale e l'arcinemico di Batman. Introdotto 
+					per la prima volta in Batman #1 (primavera 1940), inizialmente 
+					era un genio del crimine con un senso dell'umorismo diabolico. 
+					Nato per essere un personaggio da apparizione unica, la sua popolarità 
+					immediata garantì che continuasse a comparire, diventando un nemico 
+					ricorrente per il Cavaliere Oscuro e Robin, il Ragazzo Meraviglia. 
+					Alla fine degli anni '40, il Joker fu reinventato come un innocuo 
+					burlone. Caduto nell'oblio negli anni '60, fu reintrodotto negli 
+					anni '70 come una minaccia più legittima e uno dei criminali più 
+					infami di Gotham City. Negli ultimi anni, il personaggio ha assunto 
+					la personalità di un'entità malvagia, trovando piacere nel tormentare 
+					Batman o cercando di spingerlo verso la malvagità.
+				</p>
+			</div>
+			
+			
 		</main>
 		
 		<footer>
