@@ -1,0 +1,28 @@
+body{
+	background-color: #000;
+	color: #0f3;
+	width: 80%;
+	margin: auto;
+}
+.destra{
+	float: right;
+	width: 30%;
+}
+.destra > *{
+	width: 100%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.immagine{
+	
+}
+.mappa{
+
+}
+.citazione{
+	font-style: italic;
+	font-size: 20px;
+}
+.testo{
+	line-height: 1.3;
+}

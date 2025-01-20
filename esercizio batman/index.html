@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<style>
 			<!--
 			selettore {
 				nome-proprieta: valore;
 			}
 			-->
+			h1{
+				color: #ffffaa;
+			}
 			p {
 				color: #ffff00;
 			}
@@ -29,19 +33,19 @@
 			a:visited{
 				color: #ff0;
 			}
-			// Lo status hover e' attivo
-			// quando passo sopra con il mouse
+			/* Lo status hover e' attivo
+			quando passo sopra con il mouse */
 			a:hover{
 				color: #f00;
 			}
 			
-			// #link-joker{
-			//	color: #00ff33;
-			// }
+			 /* #link-joker{
+				color: #00ff33;
+			 }
 			
-			// #testo-joker {
-			//	color: #0f3;
-			// }
+			 #testo-joker {
+				color: #0f3;
+			 } */
 			
 			.verde{
 				color: #0f3;
@@ -56,6 +60,15 @@
 			.sezione img{
 				float: left;
 			}
+
+			@media (max-width: 600px) {
+				.sezione{
+					width: 90%;
+				}
+				.sezione img{
+					float: none;
+				}
+			}
 			
 		</style>
 	</head>
@@ -65,7 +78,7 @@
 		</header>
 		
 		<main >
-			<h1 style="color: #ffffaa;">Scopri l'universo di Batman!</h1>
+			<h1>Scopri l'universo di Batman!</h1>
 			<img src="immagini/cover.avif" width="100%">
 			<div class="sezione">
 				<h2><a href="https://batman.fandom.com/wiki/Gotham_City" target="_blank">Gotham City</a></h2>
