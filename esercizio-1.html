@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+<style>
+.primo{
+	width: 80%;
+	margin: auto;
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	border-radius: 16px;
+}
+.secondo{
+	background-color: #d3d3d3;
+	margin-top: 16px;
+	color: green; 
+	text-align: center; 
+	border-radius: 0px 0px 50px 50px;
+	padding: 30px;
+}
+.secondo span{
+	color: red;
+}
+.terzo{
+	margin-top: 100px;
+}
+.terzo p{
+	border-width: 5px;
+	border-style: dashed;
+	border-color: blue;
+}
+
+</style>
+</head>
 <body>
-	<div style="width: 80%; margin: auto; background-color: red;
-	color: white; text-align: center; padding: 16px; border-radius: 16px;">		
-	<h1>Esercizio: <i>Erik Fakin</i></h1>
+	<div class="primo">		
+		<h1>Esercizio: <i>Erik Fakin</i></h1>
 	</div>
-	<div>
-		<p>Questo testo e verde mentre quetsa parola e' rossa. 
+	<div class="secondo">
+		<p>Questo testo e verde mentre <span >questa</span> parola e' rossa. 
 		Ho un padding di 30px in modo da avere dello spazio vuoto attorno.</p>
 	</div>
-	<div>
+	<div class="terzo">
 		<p>Io sono un paragrafo e il mio div ha un margine top di 100px. 
-		Ho un bordo blue tratteggiato di larghezza 5px.
+		Ho un bordo blu tratteggiato di larghezza 5px.
 		</p>
 	</div>
 </body>
