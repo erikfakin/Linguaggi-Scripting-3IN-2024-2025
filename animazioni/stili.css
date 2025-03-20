@@ -32,3 +32,29 @@
 	transform: scale(2);
 	color: red;
 }
+
+.animato{
+	width: 500px;
+	height: 500px;
+	animation-name: animazione-quadrato;
+	animation-duration: 2s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes animazione-quadrato{
+	0%{
+		background-color: yellow;
+		transform: rotate(0deg) scale(1);
+	}
+	50%{
+		background-color: green;
+		transform: rotate(180deg) scale(1.5);
+	}
+	100%{
+		background-color: blue;
+		transform: rotate(360deg) scale(0.5);
+	}
+}
