@@ -1,0 +1,14 @@
+body{
+	background-image: url('sfondo.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.finestra{
+	width: 80%;
+	margin: auto;
+	background-color: #ffd;
+}
