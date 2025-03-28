@@ -4,11 +4,21 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 	width: 100vw;
-	overflow: hidden;
+	// overflow: hidden;
 }
 
 .finestra{
 	width: 80%;
 	margin: auto;
 	background-color: #ffd;
+	border-radius: 8px;
+}
+
+.barra{
+	display: flex;
+	gap: 16px;
+	justify-content: flex-end;
+	background-color: #2257D6;
+	padding: 12px;
+	border-radius: 8px;
 }
