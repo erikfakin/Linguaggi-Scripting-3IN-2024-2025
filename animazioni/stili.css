@@ -42,8 +42,11 @@
 	animation-direction: alternate;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
+	animation-play-state: paused;
 }
-
+.animato:hover{
+	animation-play-state: running;
+}
 @keyframes animazione-quadrato{
 	0%{
 		background-color: yellow;
@@ -57,4 +60,25 @@
 		background-color: blue;
 		transform: rotate(360deg) scale(0.5);
 	}
+}
+
+.ombra {
+	width: 500px;
+	height: 200px;
+	animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation-direction: reverse;
+	background-color: orange;
+}
+.ombra:hover{
+	animation-direction: normal;
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
