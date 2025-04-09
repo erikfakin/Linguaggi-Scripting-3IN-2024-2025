@@ -25,3 +25,14 @@ body{
 .titolo{
 	padding: 32px;
 }
+
+.immagini{
+	display: flex;
+}
+.immagine{
+	max-height: 250px;
+}
+.immagine img{
+	height: 100%;
+	width: 100%;
+}
