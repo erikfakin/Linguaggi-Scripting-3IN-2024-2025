@@ -1,4 +1,4 @@
-## Progetto HTML/CSS – Sito Web a Tema Libero
+## Progetto HTML/CSS – Sito Web a Tema Libero - per il 28 aprile
 
 ### Obiettivo
 Creare un sito web statico composto da almeno 3 pagine collegate tra loro, a tema libero. Il progetto ha lo scopo di esercitare l'uso corretto di HTML e CSS, con l'inserimento di elementi multimediali e semplici animazioni.
